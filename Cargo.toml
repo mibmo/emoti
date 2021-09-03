@@ -1,0 +1,12 @@
+[package]
+name = "emoti"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+arboard = "2.0.0"
+eyre = "0.6.5"
+#rofi = "0.2.2"
+rofi = { git = "https://github.com/mibmo/rofi-rs", branch = "copy-clone" }
+thiserror = "1.0.28"
+yaml-rust = "0.4.5"
